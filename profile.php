@@ -17,3 +17,10 @@
 
 <a href="home.php">Home</a><br/>
 <a href="logoutSubmit.php">Logout</a>
+
+<form action="profileSubmit.php" method="post">
+    <input type="text" name="name" placeholder="name" required />
+    <input type="email" name="email" placeholder="email" required />
+    <input type="text" name="class" placeholder="class" required/>
+    <input type="submit" value="Change"/>
+</form>
