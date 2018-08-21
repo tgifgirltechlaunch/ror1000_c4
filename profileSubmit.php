@@ -1,7 +1,7 @@
 <?php
     // get values from the url
-    $email = $_POST['email'];
     $name = $_POST['name'];
+    $email = $_POST['email'];
     $class = $_POST['class'];
 
     // validate user values
